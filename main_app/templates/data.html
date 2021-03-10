@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-    <h1>All Datas Here:</h1>
-    <h2><a href="{% url 'index' %}">Dogs</a></h2>
+    <h1>All Pets Here:</h1>
+    <h2><a href="{% url 'dogs_index'%}">Dogs</a></h2>
+    <h2><a href="{% url 'cats_index'%}">Cats</a></h2>
 {% endblock content %}
